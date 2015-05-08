@@ -1,6 +1,16 @@
 
 /* H1 */
-.header-14-sub h1 { font-family: 'EB Garamond', serif; font-weight: 400; letter-spacing: 2px; }
+
+@font-face {
+    font-family: script;
+    src: url(Satisfy-Regular.ttf);
+}
+
+.header-14-sub .hero-unit h1{ font-family: 'script', serif;
+font-family: Satisfy;
+font-size: 80px;
+color: #FFFFFF;
+line-height: 144px; }
 
 /* BACKGROUND PHOTO */
 
@@ -11,15 +21,23 @@
 /* HEAD */
 
 .header-14-sub .hero-unit {
-	margin: 50px auto 100px;
+	margin: 0px auto 0px;
 }
 
 /* SUBHEAD */
 .sub-head {
-	padding-top: 5%;
 }
+.header-14-sub h3 { 
+font-family: 'Montserrat', sans-serif;
+font-size: 20px;
+color: #FFFFFF;
+line-height: 38.4px; }
 
-.header-14-sub h4 { font-family: 'EB Garamond', serif; font-weight: 400; }
+.header-14-sub h4 { 
+font-family: 'Montserrat', sans-serif; 
+font-size: 14px;
+color: #FFFFFF;
+line-height: 38.4px;}
 
 /* Button */
 
@@ -56,3 +74,83 @@
     padding-top: 50px;
     padding-bottom: 150px;
   }
+
+
+/* DROP DOWNS */
+.content-37 .signup-form form input, .content-37 .signup-form form button {
+  float: left;
+  width: 23%;
+  margin: 0 1%;
+}
+.content-37 .signup-form form input {
+  border: 2px solid #dee1e3;
+}
+.content-37 .signup-form form {
+  margin: 30px auto 0;
+}
+
+
+
+  /* Mask: */
+/* R0C7A5M4WB: */
+/* dark: */
+opacity: 0.5;
+background: #000000;
+/* The Collective Child: */
+font-family: Satisfy;
+font-size: 100px;
+color: #FFFFFF;
+line-height: 144px;
+/* Hand-selected clothi: */
+font-family: AvenirNext-Regular;
+font-size: 32px;
+color: #FFFFFF;
+line-height: 20px;
+/* Design-Conscious Sty: */
+font-family: AvenirNext-Regular;
+font-size: 20px;
+color: #FFFFFF;
+line-height: 38.4px;
+/* Direct to You: */
+font-family: AvenirNext-Regular;
+font-size: 20px;
+color: #FFFFFF;
+line-height: 38.4px;
+/* Personally Curated: */
+font-family: AvenirNext-Regular;
+font-size: 20px;
+color: #FFFFFF;
+line-height: 38.4px;
+/* Rectangle 3: */
+background: #FFFFFF;
+/* hello@email.com: */
+font-family: AvenirNext-Regular;
+font-size: 20px;
+color: #4A4A4A;
+line-height: 27px;
+/* Rectangle 3 Copy 2: */
+background: #E35757;
+border: 2px solid #9B3A3A;
+/* Request An Invite: */
+font-family: AvenirNext-Regular;
+font-size: 20px;
+color: #FFFFFF;
+line-height: 27px;
+/* Rectangle 3 Copy: */
+background: #FFFFFF;
+/* Age: */
+font-family: AvenirNext-Regular;
+font-size: 20px;
+color: #4A4A4A;
+line-height: 27px;
+/* Path 1: */
+background: #5D5D5D;
+/* Rectangle 3 Copy: */
+background: #FFFFFF;
+/* Gender: */
+font-family: AvenirNext-Regular;
+font-size: 20px;
+color: #4A4A4A;
+line-height: 27px;
+/* Path 1: */
+background: #5D5D5D;
