@@ -41,9 +41,9 @@ line-height: 38.4px;}
 
 /* Button */
 
-.header-14-sub .subscribe-form form .input-group .btn { background: #6E6D72;}
+.btn-inverse { background: #E35757;}
 
-.header-14-sub .subscribe-form form .input-group .btn:hover { background: #58585b;}
+.btn-inverse:hover { background: #9B3A3A;}
 
 
 /* Mobile Styles */
