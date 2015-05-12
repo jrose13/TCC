@@ -201,6 +201,11 @@ line-height: 38.4px;}
   margin-top: .25em !important;
 }
 
+.mc-field-group .dropdown-menu {
+  max-height: 20vh;
+  overflow: auto;
+}
+
 
 @media (max-width: 500px) {
 
