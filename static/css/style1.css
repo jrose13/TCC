@@ -586,9 +586,6 @@ header .brand img:first-child {
   float: left;
   margin: -10px 15px 0 0;
 }
-section * {
-  z-index: 2;
-}
 .background {
   position: absolute;
   left: 0;
@@ -996,5 +993,9 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   }
   .header-14-sub .subscribe-form .input-group .btn {
     margin-top: 15px;
+  }
+  .open > .dropdown-menu {
+    width: 80%;
+    left: 10%;
   }
 }
