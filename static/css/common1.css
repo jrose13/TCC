@@ -46,20 +46,20 @@ line-height: 38.4px;}
 @media (max-width: 767px) {
   .header-14-sub .hero-unit h1 {
     text-align: center;
-    font-size: 40px;
+    font-size: 34px;
+    padding: 0 30 0 30;
   }
 
   .header-14-sub h3 {
-  	font-size: 22px;
+  	font-size: 18px;
   	margin: 0 0 10px;
   }
 
   .header-14-sub .hero-unit {
-  	margin: 10px auto 20px;
   }
 
   .sub-head h4 {
-  	font-size: 20px;
+  	font-size: 14px;
   }
 
 }
