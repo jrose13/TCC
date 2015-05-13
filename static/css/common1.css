@@ -9,8 +9,18 @@ line-height: 144px; }
 
 /* BACKGROUND PHOTO */
 
+body {
+	background: url("../../img/kid_bg.jpg") 50% 50% no-repeat;
+  background-size: cover;
+}
+
 .header-14-sub .background {
-	background-image: url("../../img/kid_bg.jpg");
+  background-image: none;
+}
+
+.header-14-sub,
+.page-wrapper {
+  background: none;
 }
 
 /* HEAD */
